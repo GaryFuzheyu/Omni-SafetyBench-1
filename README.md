@@ -13,7 +13,7 @@
 
 > Omni-SafetyBench is the first comprehensive **parallel benchmark** specifically designed for evaluating the safety of **Omni-modal Large Language Models (OLLMs)**, which integrate **text, image, video, and audio inputs**. 
 
-Omni-SafetyBench is built upon 972 seed entries from MM-SafetyBench, expanded into a large-scale parallel dataset spanning three modality paradigms: 
+Omni-SafetyBench is built upon 972 seed entries from MM-SafetyBench, Video-SafetyBench, FigStep, AudioTrust and SALAD-Bench, expanded into a large-scale parallel dataset spanning three modality paradigms: 
 - Unimodal (single inputs like text, images, videos, or audio)
 - Dual-modal (pairs such as text-image or audio-video)
 - Omni-modal (combinations involving text, visual contents, and audio). 
