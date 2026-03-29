@@ -134,7 +134,7 @@ Examples of safety evaluation can be found in `evaluation.py`.
 From these, we compute the **Safety-score** as a composite metric. To assess consistency across modalities, we calculate the Cross-Modal Safety Consistency Score (**CMSC-score**) based on Safety-scores for the same seed entry across all 24 parallel subcategories. This is typically the average consistency (e.g., via low variance), normalized to [0, 1], highlighting vulnerabilities to modality conversion attacks. 
 
 ## 🌈 Acknowledgement
-Thanks to [MM-SafetyBench](https://github.com/isXinLiu/MM-SafetyBench), which serves as the seed data of Omni-SafetyBench.
+Thanks to [MM-SafetyBench](https://github.com/isXinLiu/MM-SafetyBench),  [SALAD-Bench](https://github.com/OpenSafetyLab/SALAD-BENCH),  [FigStep](https://github.com/CryptoAILab/FigStep),  [AudioTrust](https://github.com/JusperLee/AudioTrust) and [Video-SafetyBench](https://github.com/flageval-baai/Video-SafetyBench),  which serves as the seed data of Omni-SafetyBench.
 
 Thanks to [VA-SafetyBench](https://huggingface.co/datasets/luweikai/VA-SafetyBench/), as we partially adopted their data construction methodology.
 
